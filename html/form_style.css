@@ -1,0 +1,241 @@
+.naview{
+    height:100px;
+    width:1000%;
+    background-color: rgb(252, 254, 254);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /*set nav bar at top*/
+    box-shadow: 0.5px 0.5px 11px .4px grey;
+}
+ .box1{
+    margin-top: 6rem;
+    margin-left: 26rem;
+    background-color: rgba(255, 255, 255, 0.993);
+    width:45rem;
+    height:10rem;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.box2{
+    margin-left: 26rem;
+    margin-top: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.993);
+    width:41rem;
+    height:8rem;
+    overflow: hidden;
+    border-radius: 8px;
+    padding-left: 2rem;
+    padding-top:2rem;
+    padding-right: 2rem;
+    font-size: 20px;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    
+    }
+
+.box2 a{
+    text-decoration: none;
+    color:blue;
+}
+.bline{
+    width:inherit;
+    height:3px;
+    background-color:rgb(24, 24, 177) ;
+    margin-top: 3px;
+}
+.box3{
+    margin-left: 26rem;
+    background-color: rgba(255, 255, 255, 0.993);
+    width:45rem;
+    height:9rem;
+    overflow: hidden;
+    border-radius: 8px;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    }
+  
+.box3:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.17);
+}
+.text_b3{
+    margin-left: 4rem;
+    font-size: 17px;
+    white-space:nowrap;
+}
+.b3line{
+    width:10px;
+    height:20rem;
+    background-color: rgb(33, 33, 209);
+}
+
+
+.cloud_img{
+    margin-left:20rem;
+}
+
+.form_img{
+    
+    margin-left: 2rem;
+}
+.font1{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.mar_rubi{
+    margin-left: 34rem;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+.sendbtn{
+    background-color: rgb(70, 15, 121);
+    color:white;
+    width:5rem;
+    height:1.6rem;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1rem;
+    text-align:center;
+    
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 8px;
+}
+.sendbtn button{
+    padding-top: 100px;
+}
+.sendbtn:hover{
+    background-color: rgb(85, 15, 121);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 9px 0 rgba(0, 0, 0, 0.19);
+}
+.submitbtn:hover{
+    background-color: rgb(85, 15, 121);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 9px 0 rgba(0, 0, 0, 0.19);
+}
+.clearbtn:hover{
+    background-color: rgb(85, 15, 121);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 9px 0 rgba(0, 0, 0, 0.19);
+}
+.him_img{
+
+margin-left: 1.5rem;
+width: 2.5rem; 
+height: 2.5rem; 
+overflow:hidden;
+border-radius: 100%;
+
+}
+.img_setting{
+margin-left:29rem;
+margin-top: 5px;
+}
+.img_setting:hover{
+transform: rotate(30deg);
+}
+.him_img:hover{
+    box-shadow: 0 0 0 5px #dbdbdb;
+}
+
+.link{
+    text-decoration: none;
+}
+input[type=text] {
+    font-size: 15px;
+    width: 25rem;
+    margin: 8px 0;
+    border: none;
+    outline-width:0px ;
+    border-bottom: 2px solid rgb(141, 135, 135);
+  }
+  input[type=date] {
+    font-size: 15px;
+    width: 25rem;
+    margin: 8px 0;
+    border: none;
+    outline-width:0px ;
+    border-bottom: 2px solid rgb(141, 135, 135);
+  }
+  input[type=number] {
+    font-size: 15px;
+    width: 25rem;
+    margin: 8px 0;
+    border: none;
+    outline-width:0px ;
+    border-bottom: 2px solid rgb(141, 135, 135);
+  }
+
+.submitbtn{
+    background-color: rgb(70, 15, 121);
+    color:white;
+    width:5rem;
+    height:1.7rem;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1rem;
+    text-align:center;
+    padding-top: 9px;
+    margin-left:1rem;
+}
+.clearbtn{
+    background-color: rgb(70, 15, 121);
+    color:white;
+    max-width:50px;
+    height:1.7rem;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:59.2rem;
+    text-align:center;
+    padding-top: 9px;
+}
+.msg{
+    font-size: 100px;
+    margin-left: 50%;
+    visibility:hidden;
+}
+.menu{
+    background-color: rgba(52, 162, 225, 0.871);
+    border: 0;
+    width:30px;
+    height:40px;
+    margin-bottom: 9.4rem;
+    padding-left: 10px;
+    margin-left: 2px;
+    color:aliceblue;
+    font-size: 30px;
+    display: none;
+}
+.user{
+    height:0.5px
+    
+}
+
+
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .accept{
+    margin-left:26rem;
+    margin-top: 1rem;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+  }
+
+  @media (max-width:199px){
+    body{
+        display: none;
+    
+    }
+      }
+
+
+
+
+
+
+     
